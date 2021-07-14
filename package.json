@@ -1,0 +1,29 @@
+{
+  "name": "@persona/microservice-template",
+  "version": "0.1.0",
+  "description": "a template repository which other microservices SHOULD fork from (remember to change this!)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "standard",
+    "test": "npm run lint && echo \"Warning: no test specified\"",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/project-persona/microservice-template.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/project-persona/microservice-template/issues"
+  },
+  "homepage": "https://github.com/project-persona/microservice-template#readme",
+  "dependencies": {
+    "@persona/infra": "git+https://github.com/project-persona/infra.git"
+  },
+  "devDependencies": {
+    "husky": "^7.0.1",
+    "standard": "^16.0.3"
+  }
+}
