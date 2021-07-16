@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/project-persona/microservice-template#readme",
   "dependencies": {
-    "@persona/infra": "git+https://github.com/project-persona/infra.git"
+    "@persona/infra": "git+https://github.com/project-persona/infra.git",
+    "mongodb": "^4.0.0"
   },
   "devDependencies": {
     "husky": "^7.0.1",
