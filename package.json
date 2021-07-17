@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/project-persona/microservice-template.git"
+    "url": "git+ssh://git@github.com/project-persona/microservice-personas.git"
   },
   "author": "",
   "license": "MIT",
