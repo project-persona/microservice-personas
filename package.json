@@ -22,6 +22,7 @@
   "dependencies": {
     "@persona/infra": "git+https://github.com/project-persona/infra.git",
     "firebase-admin": "^9.11.0",
+    "mongo-dot-notation": "^2.0.0",
     "mongodb": "^4.0.0",
     "parameter": "^3.6.0"
   },
