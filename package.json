@@ -1,7 +1,7 @@
 {
   "name": "@persona/microservice-template",
   "version": "0.1.0",
-  "description": "a template repository which other microservices SHOULD fork from (remember to change this!)",
+  "description": "the persona microservice for Persona project",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -21,7 +21,9 @@
   "homepage": "https://github.com/project-persona/microservice-template#readme",
   "dependencies": {
     "@persona/infra": "git+https://github.com/project-persona/infra.git",
-    "mongodb": "^4.0.0"
+    "firebase-admin": "^9.11.0",
+    "mongodb": "^4.0.0",
+    "parameter": "^3.6.0"
   },
   "devDependencies": {
     "husky": "^7.0.1",
